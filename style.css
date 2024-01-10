@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: yellowgreen;
+}
+.image-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  border: 5px solid white;
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6);
+}
+.button i{
+  font-size: 30px;
+  color: white;
+}
